@@ -24,9 +24,8 @@ img {
 ". name name name ."
 ". . bio . ."
 "text-1 . . . ."
-"v-line-1 . . . . "
-"image-4 image-1 . . ."
-"image-4 image-5 . . ."
+"image-4 . . . ."
+"image-4 . . . ."
 "text-2 . . . ."
 "image-3 image-7 image-6 . ."
 "text-3 . . . ."
@@ -67,9 +66,7 @@ img {
 
 }
 
-.image-1 {
-    grid-area: image-1;
-}
+
 
 .image-2 {
     grid-area: image-2;
@@ -81,12 +78,17 @@ img {
 }
 
 .image-4 {
-    grid-area: image-4
+    grid-area: image-4;
+    position: relative;
+    opacity: 1;
 }
 
-.image-5 {
-    grid-area: image-5;
+.image-4 img {
+    transition: opacity 0.3s ease;
+    display: block; 
 }
+
+
 
 .image-6 {
     grid-area: image-6;
@@ -114,22 +116,6 @@ img {
 
 .text-3 {
     grid-area: text-3;
-}
-
-.v-line-1 {
-    grid-area: v-line-1;
-}
-
-.v-line-1 {
-    grid-area: v-line-1;
-    grid-area: image-4;
-    align-self: center;
-    border-top: solid;
-    justify-self: ;
-    width: 100%;
-
-    background-color: rgb(103, 161, 53);
-
 }
 
 
