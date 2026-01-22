@@ -35,9 +35,9 @@ img {
 ". image-1 image-1 image-4 image-4 image-5 image-5 ."
 "text-2 text-2 text-2 image-4 image-4 image-5 image-5 ."
 "break-2 break-2 break-2 break-2 break-2 break-2 break-2 break-2"
-"text-3 image-7 image-7 image-3 image-3 image-6 image-6 ."
-". image-7 image-7 image-3 image-3 image-6 image-6 ."
-". image-7 image-7 image-3 image-3 image-6 image-6 ."
+"text-3 . . image-6 image-6 . . ."
+"image-7 image-7 . image-6 image-6 image-3 image-3 ."
+"image-7 image-7 . image-6 image-6 image-3 image-3 ."
 ". . . text-4 text-4 . . ."
 "break-3 break-3 break-3 break-3 break-3 break-3 break-3 break-3"
 "image-2 image-2 image-8 image-8 image-9 text-5 . ." 
@@ -108,7 +108,24 @@ img {
 
 .image-6 {
     grid-area: image-6;
+
 }
+
+.image-6 p {
+    position: relative;
+    left: 30px;
+}
+    
+
+.image-5 p {
+    margin: 0;
+}
+
+.quer {
+  transform: rotate(270deg);
+}
+/* gehört zu image-6 */
+
 
 .image-7 {
     grid-area: image-7;
