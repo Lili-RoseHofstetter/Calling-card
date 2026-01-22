@@ -31,14 +31,14 @@ img {
 ". . name name name name . ."
 ". . bio bio bio bio . ."
 "break-1 break-1 break-1 break-1 break-1 break-1 break-1 break-1"
-"image-4 image-4 image-1 image-1 image-5 image-5 text-1 ."
-"image-4 image-4 image-1 image-1 image-5 image-5 . ."
-"image-4 image-4 text-2 text-2 text-2 text-2 text-2 text-2"
+"text-1 image-1 image-1 image-4 image-4 text-7 text-7 text-7"
+". image-1 image-1 image-4 image-4 image-5 image-5 ."
+"text-2 text-2 text-2 image-4 image-4 image-5 image-5 ."
 "break-2 break-2 break-2 break-2 break-2 break-2 break-2 break-2"
-"text-3 image-7 image-7 image-3 image-3 image-6 image-6 image-6"
-". image-7 image-7 image-3 image-3 image-6 image-6 image-6"
-". image-7 image-7 image-3 image-3 image-6 image-6 image-6"
-". . . text-4 text-4 image-6 image-6 image-6"
+"text-3 image-7 image-7 image-3 image-3 image-6 image-6 ."
+". image-7 image-7 image-3 image-3 image-6 image-6 ."
+". image-7 image-7 image-3 image-3 image-6 image-6 ."
+". . . text-4 text-4 . . ."
 "break-3 break-3 break-3 break-3 break-3 break-3 break-3 break-3"
 "image-2 image-2 image-8 image-8 image-9 text-5 . ." 
 "image-2 image-2 . . . . . ."
@@ -73,7 +73,7 @@ img {
 .bio p {
     color: rgb(209, 163, 163);
     font-family: "MonTrappist-Black";
-    font-size: 24px;
+    font-size: 25px;
     line-height: 1;
     font-style: bold;
     text-align: center;
@@ -101,6 +101,11 @@ img {
     grid-area: image-5;
 }
 
+.image-5 p {
+    margin: 0;
+    margin-bottom: -20px;
+}
+
 .image-6 {
     grid-area: image-6;
 }
@@ -123,10 +128,11 @@ img {
 
 .text-1 p {
     color:rgb(209, 163, 163);
-    font-size: 8rem;
+    font-size: 10rem;
     font-family: "MonTrappist-Black";
     margin: 0;
-    margin-top: -20px;
+    margin-top: -30px;
+    text-align: right;
 }
 
 .text-2 {
@@ -135,11 +141,12 @@ img {
 }
 
 .text-2 p {
-    font-size: 6rem;    
+    font-size: 5rem;    
     margin: 0;
     font-family: "MonTrappist-Black";
     color: rgb(209, 163, 163);
     margin-bottom: -20px;
+    text-align: right;
     
 }
 
@@ -187,6 +194,7 @@ img {
     grid-area: text-6;
 }
 
+
 .text-6 p {
     color:rgb(209, 163, 163);
     font-size: 8rem;
@@ -195,6 +203,23 @@ img {
     margin-bottom: -30px;
     
 }
+
+.text-7 {
+    grid-area: text-7;
+}
+
+.text-7 p {
+    color:rgb(209, 163, 163);
+    font-size: 5rem;
+    font-family: "MonTrappist-Black";
+    margin: 0;
+    margin-top: -20px;
+    
+    
+}
+
+
+
 
 .v-line-1 {
     grid-area: v-line-1;
