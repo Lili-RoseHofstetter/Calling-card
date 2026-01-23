@@ -91,9 +91,6 @@ img {
     opacity: 1;
 }
 
-.image-1:hover .a {
-    opacity: 0;
-}
 
 .image-1 img:hover {
     transform: scale(1.5)
