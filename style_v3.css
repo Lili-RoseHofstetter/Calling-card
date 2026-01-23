@@ -35,14 +35,13 @@ img {
 ". image-1 image-1 image-4 image-4 image-5 image-5 ."
 "text-2 text-2 text-2 image-4 image-4 image-5 image-5 ."
 "break-2 break-2 break-2 break-2 break-2 break-2 break-2 break-2"
-"text-3 . . image-6 image-6 . . ."
-"image-7 image-7 . image-6 image-6 image-3 image-3 ."
-"image-7 image-7 . image-6 image-6 image-3 image-3 ."
-". . . text-4 text-4 . . ."
+"image-7 image-7 image-6 image-6 image-6 text-3 . ."
+"image-7 image-7 image-6 image-6 image-6 image-3 image-3 ."
+"text-4 text-4 text-4 text-4 text-4 image-3 image-3 ."
 "break-3 break-3 break-3 break-3 break-3 break-3 break-3 break-3"
-"image-2 image-2 image-8 image-8 image-9 text-5 . ." 
-"image-2 image-2 . . . . . ."
-"image-2 image-2 text-6 text-6 . . . ."
+". image-8 image-8 image-2 image-2 image-9 text-5 . ." 
+". image-8 image-8 image-2 image-2 . . ."
+"text-6 text-6 . . . . . ."
 "break-4 break-4 break-4 break-4 break-4 break-4 break-4 break-4"
 } 
 
@@ -99,21 +98,15 @@ img {
 
 .image-5 {
     grid-area: image-5;
+    display: flex;
+    align-items: flex-end;
 }
 
-.image-5 p {
-    margin: 0;
-    margin-bottom: -20px;
-}
+
 
 .image-6 {
     grid-area: image-6;
 
-}
-
-.image-6 p {
-    position: relative;
-    left: 30px;
 }
     
 
@@ -121,9 +114,9 @@ img {
     margin: 0;
 }
 
-.quer {
+/* .quer {
   transform: rotate(270deg);
-}
+} */
 /* gehört zu image-6 */
 
 
@@ -176,8 +169,8 @@ img {
     font-size: 8rem;
     font-family: "MonTrappist-Black";
     margin: 0;
-    text-align: right;
-    margin-top: -20px;
+    text-align: left;
+    margin-top: -25px;
 }
 
 .text-4 {
